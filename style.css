@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+body{
+    background: url("/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content-area > div{
+    display: none;
+}
+
+#content-area > div:first-child{
+    display: block;
+}
