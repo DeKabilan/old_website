@@ -4,7 +4,6 @@ function hideOtherContentAreas(){
     const allContentAreas = document.querySelectorAll('#content-area > div')
     for(let i=0;i<allContentAreas.length;i++){
         allContentAreas[i].style.display = 'none'
-        console.log(this)
     }
 }
 
@@ -14,7 +13,6 @@ function changeTab(){
         const el = document.querySelector(selector)
         hideOtherContentAreas()
         el.style.display = "block"
-        console.log(this)
     }
 }
 
