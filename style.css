@@ -8,7 +8,7 @@ html, body{
 }
 
 body{
-    background: url("assets/images/bg.jpg");
+    background: url(assets/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -16,7 +16,7 @@ body{
 
 @font-face {
     font-family: fontawesome;
-    src: url("assets/fonts/fontawesome-webfont.woff2");
+    src: url(assets/fonts/fontawesome-webfont.woff2);
 }
 
 #content-area > div{
