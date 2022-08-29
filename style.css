@@ -11,12 +11,55 @@ body{
     background: url("/assets/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+@font-face {
+    font-family: fontawesome;
+    src: url(/assets/fonts/fontawesome-webfont.woff2);
 }
 
 #content-area > div{
     display: none;
 }
 
+#top-tabs > div {
+  margin-left: 20px;
+  cursor: pointer;  
+  font-family: fontawesome;
+  font-size: 50px;
+  text-shadow: 0 0 2px black;
+}
+#top-tabs > div:hover{
+    font-size: 60px;
+}
+#top-tabs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(5, 34, 5);
+}
+
+/* #content-area{
+    background: white;
+    width: 80%;
+    min-height: 200px;
+    margin-top: 30px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+
+#container {
+    width: 600px;
+    margin: 200px auto;
+}
+
 #content-area > div:first-child{
     display: block;
+}
+
+#logo > div{
+    width: 10%;
+    height: 10%;
 }
