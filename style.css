@@ -11,6 +11,7 @@ html, body{
 
 body{
     background: url("assets/images/bg.jpg");
+    margin: 0 20px;
     position: relative;
     background-repeat: no-repeat;
     background-size:cover;
