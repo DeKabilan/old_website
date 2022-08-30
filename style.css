@@ -49,7 +49,8 @@ body{
 
 #top-tabs > div {
   margin-left: 20px;
-  cursor: pointer;  
+  cursor: pointer;
+  margin-bottom: 50px;
   font-family: fontawesome;
   font-size: 50px;
   text-shadow: 0 0 2px black;
